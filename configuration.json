@@ -1,0 +1,33 @@
+{
+    "excell" : {
+        "enable" : true,
+        "filename" : "Anik_2.xlsx",
+        "sheetname" : "Sheet1",
+        "location" : "data/input/"
+    },
+    "csv" : {
+        "enable" : false,
+        "filename" : "",
+        "location" : "data/input/"
+    },
+    "output" : {
+        "filename" : "output.json",
+        "location" : "data/output/"
+    },
+    "mapKeys" :{
+        "noOfRecords": "Number of Records",
+        "admitType": "Admit Type",
+        "age" :"Age",
+        "lwobsPatients" : "LWOBS Patients",
+        "percentageLwobs" : "% LWOBS",
+        "discharges" : "Discharges",
+        "clinicalUnit" : "Clinical Unit",
+        "cohort" : "Cohort",
+        "encounterStatus": "Encounter Status (group)",
+        "episodeStartDatetime" : "Episode Start Datetime",
+        "hospitalLOSBedDays" : "Hospital LOS Bed Days",
+        "hospitalLOSDays" : "Hospital LOS Days",
+        "mrnNumber" : "MRN Number",
+        "lwobsReason" : "lwobsReason"
+    }
+}

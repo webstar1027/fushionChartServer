@@ -1,0 +1,29 @@
+{
+  "name": "dataserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "create-output": "node excell-to-json",
+    "lint": "eslint --ext .js ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "json-query": "^2.2.2",
+    "load-json-file": "^5.1.0",
+    "path": "^0.12.7",
+    "xls-to-json": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "install": "^0.12.1"
+  }
+}
